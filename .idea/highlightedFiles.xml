@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectTreeColorHighlighter">
     <files>
+      <node color="1" path="$PROJECT_DIR$/user service" />
       <node color="4" path="$PROJECT_DIR$/user service/src/AuthM.ts" />
     </files>
     <colors>
@@ -13,6 +14,7 @@
       <color id="6" value="#171a34" name="Color 6" enabled="true" />
       <color id="7" value="#311333" name="Color 7" enabled="true" />
       <color id="8" value="#1e1e1e" name="Color 8" enabled="true" />
+      <color id="12" value="#595959e5" name="Color 12" enabled="true" />
     </colors>
     <option name="marksForCollapsedHighlights" value="Dots" />
   </component>

@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="882eb1ad-4a6f-4890-9d22-3809cdd105b8" name="Changes" comment="" />
+    <list default="true" id="882eb1ad-4a6f-4890-9d22-3809cdd105b8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/highlightedFiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/highlightedFiles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin service/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin service/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin service/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin service/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/admin service/src/index.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6,
@@ -25,8 +35,10 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
     "last_opened_file_path": "C:/Users/HARPREET/Desktop/spotify/admin service",
     "node.js.detected.package.eslint": "true",
@@ -37,6 +49,11 @@
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "C:\\Users\\HARPREET\\Desktop\\spotify\\user service\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -67,7 +84,10 @@
       <workItem from="1781536513680" duration="2016000" />
       <workItem from="1781538548786" duration="7031000" />
       <workItem from="1781474209662" duration="2604000" />
-      <workItem from="1781476853649" duration="4118000" />
+      <workItem from="1781476853649" duration="8625000" />
+      <workItem from="1781819572535" duration="2021000" />
+      <workItem from="1781882780807" duration="25000" />
+      <workItem from="1781882818747" duration="1002000" />
     </task>
     <servers />
   </component>
