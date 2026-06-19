@@ -1,0 +1,29 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Album {
+  id          Int      @id @default(autoincrement())
+  title       String
+  description String
+  thumbnail   String
+  created_at  DateTime @default(now())
+  songs       Song[]
+}
+
+model Song {
+  id          Int      @id @default(autoincrement())
+  title       String
+  description String
+  thumbnail   String?
+  audio       String
+  created_at  DateTime @default(now())
+
+  album_id    Int?     // nullable because ON DELETE SET NULL
+  album       Album?   @relation(fields: [album_id], references: [id], onDelete: SetNull)
+}

@@ -1,5 +1,5 @@
 {
-  "name": "admin-service",
+  "name": "prisma",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,17 +13,30 @@
   "author": "",
   "license": "ISC",
   "type": "module",
-  "dependencies": {
-    "@types/dotenv": "^6.1.1",
-    "@types/express": "^5.0.6",
-    "cloudinary": "^2.10.0",
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1"
-  },
   "devDependencies": {
+    "@types/cookie-parser": "^1.4.10",
     "@types/node": "^26.0.0",
+    "@types/pg": "^8.20.0",
     "concurrently": "^10.0.3",
     "nodemon": "^3.1.14",
+    "prisma": "^7.8.0",
+    "tsx": "^4.22.4",
     "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "github:neondatabase/serverless",
+    "@prisma/adapter-pg": "^7.8.0",
+    "@prisma/client": "^7.8.0",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.1.0",
+    "axios": "^1.18.0",
+    "cloudinary": "^2.10.0",
+    "cookie-parser": "^1.4.7",
+    "datauri": "^4.1.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "multer": "^2.2.0",
+    "pg": "^8.22.0"
   }
 }
